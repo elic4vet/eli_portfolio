@@ -43,6 +43,7 @@ a {
   text-decoration: none;
   color: var(--branding-color);
 }
+
 .d-flex {
   display: flex !important;
 }
@@ -65,14 +66,22 @@ a {
   line-height: 1.5;
   font-size: 24px;
 }
-
-.content-container {
-  padding: 60px 20px;
+.about-container {
   background-color: var(--secondary-color);
+}
+.container {
+  padding: 10px 15px;
+}
+.content-container li {
+  list-style-type: none;
+}
+.content-container ul {
+  padding: 0;
 }
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  text-align: center;
 }
 
 .content-container h2 {
