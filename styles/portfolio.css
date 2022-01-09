@@ -113,6 +113,10 @@ p {
 .logo {
   max-height: 60px;
 }
+
+.border-dark {
+  border-color: var(--branding-color) !important;
+}
 nav {
   padding: 20px 0;
 }
