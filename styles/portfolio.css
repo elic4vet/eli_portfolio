@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
+  --branding-color: #ad6476;
+  --secondary-color: #fcf4f6;
+  --heading-font-family: "Pinyon Script", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
 body {
@@ -34,7 +34,7 @@ h4 {
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
-  color: #272142;
+  color: #000000;
   font-size: 16px;
   line-height: 30px;
 }
@@ -52,10 +52,10 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #0f0004;
 }
 .hero h2 {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
