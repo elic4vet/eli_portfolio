@@ -126,7 +126,7 @@ a {
   padding: 120px 60px;
 }
 .logo {
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .border-dark {
@@ -209,7 +209,17 @@ footer .social-links a {
     padding: 0;
     text-align: center;
   }
+
+  .learning ul {
+    list-style: disc;
+  }
+
   .logo {
     max-height: 40px;
   }
+}
+
+.icon-large {
+  max-width: 40px;
+  margin-bottom: 10px;
 }
